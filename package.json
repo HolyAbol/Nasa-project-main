@@ -1,0 +1,19 @@
+{
+  "name": "nasa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ser": "npm start --prefix server",
+    "cli": "npm start --prefix client",
+    "dev": "concurrently \"npm start --prefix client\" \"npm start --prefix server\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^9.2.1",
+    "mongoose": "^9.1.5",
+    "npm-run-all": "^4.1.5",
+    "pm2": "^6.0.14"
+  }
+}
